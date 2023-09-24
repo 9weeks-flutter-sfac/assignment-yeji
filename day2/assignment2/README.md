@@ -15,5 +15,5 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-day2/assignment1
-![img.png](img.png)
+day2/assignment2
+![image](https://github.com/9weeks-flutter-sfac/assignment-yeji/assets/71954155/0b2a6d9c-26d9-4ee9-9025-d6085f060f03)
