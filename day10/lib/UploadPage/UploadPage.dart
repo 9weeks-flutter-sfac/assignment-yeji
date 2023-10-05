@@ -46,14 +46,17 @@ class UploadPage extends StatelessWidget {
 
                             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                                 content: Text(
-                                    '고양이가 누설했습니다!! 메세지 :  ${secret.secret}')));
+                                    '고양이가 누설했습니다!! ${secret.secret}',
+                                style: TextStyle(fontFamily: 'Neo'),)));
                           }
                         }
                       },
                       child: Text(
                         '고양이에게 속삭이기',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 20),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            fontFamily: 'Neo'),
                       ))
                 ]),
           ),

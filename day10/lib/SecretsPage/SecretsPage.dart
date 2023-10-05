@@ -39,7 +39,10 @@ class SecretsPage extends StatelessWidget {
                           children: [
                             Text("고양이가 누설합니다ㅏㅇ아앜!",
                               textAlign: TextAlign.center,
-                              style:TextStyle(color: Colors.white, fontSize: 20),),
+                              style:TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontFamily: 'Neo'),),
                             Image(
                                 height: 45,
                                 color: Colors.white,
@@ -51,14 +54,19 @@ class SecretsPage extends StatelessWidget {
                                 snapshot.data![index].secret,
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
-                                    color: Colors.white, fontSize: 30),
+                                    color: Colors.white,
+                                    fontSize: 30,
+                                    fontFamily: 'Neo'),
                               ),
                             ),
                             Text(
                               snapshot.data![index].author?.username ?? "익명",
                               textAlign: TextAlign.center,
                               style:
-                              TextStyle(color: Colors.white, fontSize: 20),
+                              TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20,
+                                  fontFamily: 'Neo'),
                             ),
                           ],
                         ),
